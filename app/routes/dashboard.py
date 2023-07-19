@@ -9,3 +9,4 @@ def dash():
 @bp.route('/edit/<id>')
 def edit(id):
   return render_template('edit-post.html')
+
